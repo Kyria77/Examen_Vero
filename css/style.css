@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.carousel-item{
+    height: 450px;
+    object-fit: cover;
+}
+
+
+
+
+footer .nav-link{
+    text-decoration: underline;
+    
+}
